@@ -1,0 +1,108 @@
+html {
+scroll-behavior: smooth;
+}
+@font-face {
+font-family: Deutsch Gothic;
+src: url(fonts/gothic.ttf);
+}
+h1 {
+	font-family: Deutsch Gothic;
+}
+body {
+	font-family: arial;
+	margin: 0;
+}
+#shapka {
+	height: 75px;
+	width: 100%;
+	display: flex;
+	text-align: justify;
+	justify-content: center;
+    position: fixed;
+    z-index: 1000;
+    background: #fff;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+ul {
+	list-style: none;
+	display: flex;
+}
+li > a {
+	padding: 1em;
+	text-decoration: none;
+	display: block;
+	color: #000000;
+	border: 1px solid white;
+	background: #C4C4C4;
+}
+#uslugi a {
+	padding: 1em;
+	text-decoration: none;
+	display: block;
+	color: #000000;
+	border: 1px solid white;
+	background: #C4C4C4;
+}
+ul a:hover {background: #000000; color: #FFFFFF;}
+#centr {
+	padding-left: 10px;
+	display: flex;
+	align-items: center;
+}
+#b1 {
+	display: block;
+	padding-top: 85px;
+	text-align: center;
+}
+#b2 {
+	text-align: center;
+}
+#uslugi {
+	display: flex;
+	flex-wrap: wrap;
+	height: auto;
+	margin: 5px;
+}
+.cena {
+	width: 150px;
+	vertical-align: middle;
+}
+#b3 {
+	background-image: url(img/fon.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: auto;
+	height: 246px;
+	margin: 5px;
+	padding: 2%;
+}
+#b31 {
+	text-align: center;
+	width: 523px;
+	float: left;
+	background-color: #fffcfc8c;
+	border-radius: 100px;
+}
+#b4 {
+	padding: 2%;
+	text-align: justify;
+}
+.butt {
+	padding: 10px;
+	background-color: #FF0000;
+	border-radius: 150px;
+	color: white;
+	font-weight: bold;
+	font-size: 18pt;
+	cursor: pointer;
+}
+#footer {
+	display: flex;
+    background: #C4C4C4;
+    color: black;
+    padding: 1%;
+    border-top: solid;
+}
+summary {
+	cursor: pointer;
+}
